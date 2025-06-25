@@ -1,0 +1,80 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# macOS
+.DS_Store
+
+# Java/Gradle
+.gradle/
+build/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.db
+*.h2.db
+*.sqlite
+*.pid
+*.lock
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# NetBeans
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Env/Config
+.env
+*.local
+
+# OS/Editor
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.bak
+*.tmp
+
+# Test coverage
+coverage/
