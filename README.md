@@ -14,6 +14,9 @@ A React + Spring Boot app for secure text encryption/decryption using AES-GCM.
 - Backend: Spring Boot, Java, Gradle
 - Encryption: AES-GCM, PBKDF2
 
+## Demo URL
+https://cryptovault-247j.onrender.com
+
 ## Installation
 1. Clone: `git clone https://github.com/dpak-maurya/CryptoVault`
 2. Backend: `cd backend && ./gradlew build && ./gradlew bootRun`

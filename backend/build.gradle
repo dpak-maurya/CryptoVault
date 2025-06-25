@@ -1,8 +1,3 @@
-// Prevent auto-download of higher JDK versions
-gradle.projectsLoaded {
-    gradle.startParameter.systemPropertiesArgs.put('org.gradle.java.installations.auto-download', 'false')
-}
-
 plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.5.3'
