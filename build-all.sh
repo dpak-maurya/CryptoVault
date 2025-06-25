@@ -10,6 +10,8 @@ npm run build
 
 # 2. Copy frontend build to backend static resources
 echo "Copying frontend build to backend..."
+# Ensure the static directory exists
+mkdir -p ../backend/src/main/resources/static
 rm -rf ../backend/src/main/resources/static/*
 cp -r dist/* ../backend/src/main/resources/static/
 
