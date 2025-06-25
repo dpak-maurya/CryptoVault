@@ -26,3 +26,13 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+jar {
+	archiveBaseName = 'CryptoVault'
+	archiveVersion = ''
+}
+
+bootJar {
+	archiveBaseName = 'CryptoVault'
+	archiveVersion = ''
+}
